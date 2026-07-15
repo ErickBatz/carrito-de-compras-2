@@ -1,0 +1,16 @@
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.producto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+.producto img{
+    width: 100%;
+}

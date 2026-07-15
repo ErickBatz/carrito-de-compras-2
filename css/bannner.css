@@ -3,7 +3,6 @@
     max-height: 600px;
     display: flex;
     gap: 10px;
-  
     margin: 10px;
 }
 .Categorias{
@@ -16,10 +15,8 @@
     gap: 10px;
     align-items: flex-start;
     justify-content: flex-start;
-   
 }
 .tituloCategoria{
-    border: solid ;
     display:flex;
     justify-content: center;
     gap: 20px;
@@ -31,10 +28,18 @@
 .ofertasImg{
     flex: 3;
     border-radius: 5px;
-  
 }
 .ofertasImg img{
     border-radius: 5px;
     width: 100%;
     height: 100%;
+}
+.Categorias a{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.Categorias a img{
+    width: 60px;
+
 }
